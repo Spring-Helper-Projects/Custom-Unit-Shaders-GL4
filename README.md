@@ -58,13 +58,13 @@ The uniform bin controls what [uniforms](https://www.khronos.org/opengl/wiki/Uni
 
 ## Recognised UnitDef & FeatureDef customParams
 
-Units & Features:
+### Units & Features
 
 `uniformbin` - Places the object into the defined uniform bin from the `uniformBins` table defined in `cus_defs.lua`.
 
 `normaltex` - The filepath to the normal map texture
 
-Units only:
+### Units only
 
 `wrecktex1` - Overrides the wreck texture1 for this unit when using `OPTION_HEALTH_TEXTURING`, use this if it does not have an engine supported corpse, or you want to use a texture other than texture1 of the corpse model
 
@@ -74,7 +74,7 @@ Units only:
 
 `useskinning` - Enables skinning
 
-Features only:
+### Features only
 
 `treeshader` - Assigns to the `tree` uniform bin. Must be set to `'yes'`. Equivalent to using `customParams.uniformbin = 'tree'`. Kept for compatibility with BAR.
 
