@@ -10,9 +10,9 @@ Out of the box supplies unit and feature normal mapping, swaying tree features a
 If you use base content gadget handler you should just be able to drop the files in. If you have your own local copies of `callins.lua` and `gadgets.lua` you may need to update from base content.
 
 ## Using cus_defs.lua
-Most game devs will not need to edit any file provided here other than `LuaRules/Configs/cus_defs.lua`. The file specifies several options at the top which can be enabled for each `uniformBin` specified in the first return table. You may wish to modify `defaultunit` but are unlikely to need to modify those for features. 
+Most game devs will not need to edit any file provided here other than [LuaRules/Configs/cus_defs.lua](LuaRules/Configs/cus_defs.lua). The file specifies several options at the top which can be enabled for each `uniformBin` specified in the first return table. You may wish to modify `defaultunit` but are unlikely to need to modify those for features. 
 
-The uniform bin controls what [uniforms](https://www.khronos.org/opengl/wiki/Uniform_(GLSL)) are passed to the shader
+The uniform bin controls which [uniforms](https://www.khronos.org/opengl/wiki/Uniform_(GLSL)) are passed to the shaders.
 
 ### Recognised Options
 
@@ -60,7 +60,7 @@ The uniform bin controls what [uniforms](https://www.khronos.org/opengl/wiki/Uni
 
 ### Units & Features
 
-`uniformbin` - Places the object into the defined uniform bin from the `uniformBins` table defined in `cus_defs.lua`.
+`uniformbin` - Places the object into the defined uniform bin from the `uniformBins` table defined in [cus_defs.lua](LuaRules/Configs/cus_defs.lua).
 
 `normaltex` - The filepath to the normal map texture
 
