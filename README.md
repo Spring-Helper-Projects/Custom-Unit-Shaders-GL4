@@ -4,6 +4,8 @@ lua code is GPL v2, shaders are MIT as of 2025
 
 Written by Beherith and ivand for BAR, made portable by FLOZi
 
+Out of the box supplies unit and feature normal mapping, swaying tree features and also applies damage shaders to units which blend in the wreck texture and distorts the vertices. Also enables [Metal/Roughness PBR](https://blog.turbosquid.com/2023/07/27/an-intro-to-physically-based-rendering-material-workflows-and-metallic-roughness/) using Green and Blue channels of texture2 respectively, replacing Recoil default. With a little setup can be used to make animated tank treads.
+
 ## Adding To Your Game
 If you use base content gadget handler you should just be able to drop the files in. If you have your own local copies of `callins.lua` and `gadgets.lua` you may need to update from base content.
 
