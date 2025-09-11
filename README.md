@@ -56,6 +56,8 @@ The uniform bin controls which [uniforms](https://www.khronos.org/opengl/wiki/Un
 
 `treadSpeedMult` - Allows to speed up or reverse direction (with negative values) tank tread 
 
+`materialIndex` - Not used directly by GL4 CUS, but recognised by some widgets e.g. [gfx_outline_shader.lua](https://github.com/SplinterFaction/SplinterFaction/blob/gl4cus/LuaUI/Widgets/gfx_outline_shader.lua) to distinguish between materials
+
 ## Recognised UnitDef & FeatureDef customParams
 
 ### Units & Features
